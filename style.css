@@ -9,11 +9,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1000px;
-    background-color: #1F2937;
+    width: 1300px;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+.top-content{
+    align-self: stretch;
     padding: 0 150px;
-    
+}
+.top-content,
+.footer{
+    background-color: #1F2937;
 }
 .header{
     display: flex;
@@ -23,6 +29,7 @@ body{
     align-self: stretch ;
     height: 50px;
     align-items: center;
+
 }
 ul{
     display: flex;
@@ -78,4 +85,64 @@ button{
     color: #F9FAF8;
     padding: 8px 20px;
     font-weight: bold;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+}
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.quotes{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+    margin: 0;
+    align-self: stretch;
+    padding: 0 150px;
+
+}
+.quote{
+    font-size: 36px;
+    font-weight:100;
+    font-style: italic;
+    color:#1F2937;
+    
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-shrink: 0;
+}
+.card-img{
+    border: solid 2px #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    margin-bottom: 8px;
+}
+.quotes-container{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
 }
