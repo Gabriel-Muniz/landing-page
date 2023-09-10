@@ -1,101 +1,82 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
     <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500&display=swap');
+        </style>
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,300;1,500&display=swap" rel="stylesheet">
-        <meta charset="UTF-8" lang="en-us">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing page</title>
+        <title>Landing Page</title>
     </head>
     <body>
-        <div class="body">
-            
-            <div class="top-content">
-                <div class="header">
-                    *Criar logo*
+        <div class="top-content">
+            <div class="header">
+                <p class="logo">Gabriel Muniz</p>
+                <div class="nav-bar">
                     <ul>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="hero-section">
-                    <div class="hero-left">
-                        <p class="hero-text">Welcome to my landing page!</p>
-                        <p class="hero-secondary"> I hope you like some coffee, we just made some. Just let me remember where did i put that cup...</p>
-                        <button class="sign-up">Message Me</button>
-                    </div>
-                    <div class="hero-right">
-                        <div class="img-placeholder"><img class="profile-pic" src="./images/profile.jpg" alt="My profile picture"></div>
-                    </div>
-                </div>
-                
             </div>
-            <div class="content">
-                <div class="info">
-                    <p class="info-title">Some of my links</p>
-                    <div class="cards-container">
-                        <div class="card">
-                            <a href="https://www.soundcloud.com/snooopoffbiel" target="_blank">
-                                <div class="card-img">
-                                    <img src="./images/SoundcloudPic.png" alt="">
-                                </div>
-                            </a>
-                            
-                            That's my soundcloud. I post some random "songs" ideas there sometimes. Nothing crazy tho
-                        </div>
-                        
-                        <div class="card">
-                            <a href="https://www.instagram.com/gavrilmuniz" target="_blank">
-                                <div class="card-img">
-                                    <img src="./images/InstaPic.png" alt="">
-                                </div>
-                            </a>
-                            
-                            Here you'll see some drawings/pixelarts that i eventually made it. Again, nothing crazy...
-                        </div>
-                        
-                        <div class="card">
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                                <div class="card-img">
-                                    <img src="./images/Placeholder.png" alt="">
+            <div class="hero-section">
+                <div class="hero-left">
+                    <p class="hero-main">Welcome to my landing page!</p>
+                    <p class="hero-secondary">I hope you like some coffee, we just mad
+                        some. Just let me remember where did i put that cup...
+                    </p>
+                    <button class="btn-signup">Message me</button>
+                </div>
+                <div class="hero-right">
+                    <img src="./images/profile.jpg" alt="" class="profile-pic">
+                </div>
+            </div>
+        </div>
+        <div class="links-section">
+            <div class="card">
+                <div class="card-img">
+                    <img src="./images/SoundcloudPic.png" alt="">
+                </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, praesentium?
+            </div>
 
-                                </div>
-                            </a>
-                            
-                            I don't know man... We'll figure out
-                        </div>
-                        <div class="card">
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                                <div class="card-img">
-                                    <img src="./images/Placeholder.png" alt="">
-                                </div>
-                            </a>
-                            
-                            I don't know man... We'll figure out
-                        </div>
-                    </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./images/InstaPic.png" alt="">
                 </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, praesentium?
+            </div>
 
-                <div class="quotes">
-                    <div class="quotes-container">
-                        <p class="quote">We all die. The goal isn't to live forever, the goal is to create something that will.</p>
-                        <p class="author">-Chuck Palahniuk, the guy who talk in the Catalyst music intro. And also a writer i guess</p>                        
-                    </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./images/Placeholder.png" alt="">
                 </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, praesentium?
             </div>
-            <div class="bottom-section">
-                <div class="pop-up">
-                    <div class="pop-up-text">
-                        <p class="call-to-text">Call to action! It's time!</p>
-                        <p>Sign up for our product by clicking that button right over there!</p>
-                    </div>
-                    <button class="sign-up">Sign up</button>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="./images/Placeholder.png" alt="">
                 </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, praesentium?
             </div>
-            <div class="footer"> Copyright &#169 Gabriel Muniz 2023</div>
+        </div>
+        <div class="quotes-section">
+            <div class="quotes-container">
+                <div class="quote">"We all die.  The goal isn't to live forever, the goal is to create something that will."</div>
+                <div class="author">- Chuck Palahniuk, in the Catalyst song intro</div>
+            </div>
+        </div>
+        <div class="popup-section">
+            <div class="popup-body">
+                <div class="popup-text">
+                    <p class="call-out">Have interest in hiring me?</p>
+                    <p class="call-info">You can contact me clicking that cool button over there!</p>
+                </div>
+                <button class="btn-signup">Message me</button>
+            </div>
         </div>
     </body>
-</html>   
+</html>
