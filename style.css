@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  text-align: center;
 }
 
 *,
@@ -11,7 +12,7 @@ body{
   padding: 0;
   margin: 0;
   height: 100vh;
-  background-color: aquamarine;
+  background-color: white;
 
 }
 body > *{
@@ -55,6 +56,7 @@ ul{
   padding: 100px 0;
   gap: 32px;
   align-items: center;
+  text-align: left;
 }
 .hero-description{
   display: flex;
@@ -72,7 +74,10 @@ ul{
   width: 400px;
   height: 200px;
   flex-shrink: 0;
-  align-items: flex-start;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-signup{
   align-self: flex-start;
@@ -84,9 +89,34 @@ ul{
   font-weight: bold;
   font-size: 18px;
 }
-.image-placeholder{
-  color: #1f2937;
+
+.information-section{
   display: flex;
+  flex-direction: column;
+  padding: 24px 24px 48px;
+}
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
+}
+.card{
+  display: flex;
   align-items: center;
+  max-width: 150px;
+  min-width: 150px;
+  flex-flow: column wrap;
+  gap: 8px;
+}
+.img-border{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+.contacts{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 24px;
 }
