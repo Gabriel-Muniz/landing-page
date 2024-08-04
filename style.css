@@ -15,6 +15,10 @@ body{
   background-color: white;
 
 }
+body > *{
+  margin: 0 auto;
+  padding: 0 20%;
+}
 h1,p{
   margin: 0;
 }
@@ -87,12 +91,14 @@ ul{
   color: white;
   font-weight: bold;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .information-section{
   display: flex;
   flex-direction: column;
-  padding: 24px 24px 48px;
+  padding-top: 50px;
+  padding-bottom: 50px; 
 }
 .cards-container{
   display: flex;
@@ -178,10 +184,6 @@ ul{
 .call-to-title{
   font-size: 24px;
   font-weight: bold;
-}
-body > *{
-  margin: 0 auto;
-  padding: 0 20%;
 }
 .footer{
   padding: 8px;
