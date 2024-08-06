@@ -73,15 +73,20 @@ ul{
   font-size: 48px;
   color: #cccec7;
 }
-.image-placeholder{
+.image-container{
   background-color: #cccec7;
   width: 400px;
-  height: 200px;
+  height: 225px;
   flex-shrink: 0;
   color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image-container > img {
+  width: inherit;
+  height: auto;
+  object-fit: contain;
 }
 .btn-signup{
   align-self: flex-start;
