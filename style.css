@@ -98,3 +98,26 @@ ul {
     text-align: center;
     flex-basis: 150px;
 }
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex: 1;
+}
+.quote-section > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.quote-author{
+    margin-left: auto;
+    font-weight: 900;
+}
