@@ -1,6 +1,6 @@
 body {
     width: 60%;
-    height: 100vh;
+    height: 150vh;
     margin: 0 auto;
     background-color: #1f2937;
     display: flex;
@@ -63,61 +63,105 @@ ul {
     border-radius: 8px;
     padding: 8px 24px;
 }
-.hero-section .right-section{
+
+.hero-section .right-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.information-section{
+
+.information-section {
     display: flex;
     flex-direction: column;
     background-color: white;
     flex: 1;
     padding-bottom: 100px;
 }
-.information-header{
+
+.information-header {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
     padding: 30px 0;
 }
-.information-cards-container{
+
+.information-cards-container {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.card-img{
+
+.card-img {
     width: 150px;
     height: 150px;
     border: 2px solid #3882f6;
     border-radius: 8px;
     margin-bottom: 8px;
 }
-.card{
+
+.card {
     text-align: center;
     flex-basis: 150px;
 }
-.quote-section{
+
+.quote-section {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
     flex: 1;
 }
-.quote-section > .container{
+
+.quote-section>.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 60%;
 }
-.quote{
+
+.quote {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
 }
-.quote-author{
+
+.quote-author {
     margin-left: auto;
     font-weight: 900;
+}
+
+.sign-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex: 1;
+}
+
+.sign-modal {
+    display: flex;
+    width: 70%;
+    height: 75px;
+    padding: 30px 60px;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-section .header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.btn-sign-up {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 8px 32px;
+    border-radius: 10px;
 }
