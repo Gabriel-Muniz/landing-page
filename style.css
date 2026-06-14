@@ -199,6 +199,9 @@ ul {
 
     flex: 0 0 75px;
 }
-a {
+.header a{
+    color: #f8eacf;
+}
+a{
     text-decoration: none;
 }
