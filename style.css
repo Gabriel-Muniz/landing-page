@@ -6,7 +6,7 @@ body {
     /* width: 60%; */
     height: 100%;
     margin: 0 auto;
-    background-color: #1f2937;
+    background-color: #071721;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -20,7 +20,7 @@ body>* {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #f8eacf;
     flex: 0 0 50px;
 }
 
@@ -50,12 +50,12 @@ ul {
 .hero-text {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #f8eacf;
 }
 
 .hero-description {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #f8eacf;
 }
 
 .img-placeholder {
@@ -65,8 +65,8 @@ ul {
 }
 
 .btn-submit {
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: #c07e53;
+    color: #f8eacf;
     font-size: 18px;
     font-weight: bold;
     border: none;
@@ -83,7 +83,7 @@ ul {
 .information-section {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #30455c;
     justify-content: space-evenly;
     flex: 1.2 0 400px;
     padding: 20px;
@@ -91,7 +91,7 @@ ul {
 
 .information-header {
     font-size: 36px;
-    color: #1f2937;
+    color: #071721;
     font-weight: 900;
     text-align: center;
     padding: 10px 0 30px 0;
@@ -107,21 +107,30 @@ ul {
 .card-img {
     width: 150px;
     height: 150px;
-    border: 2px solid #3882f6;
-    border-radius: 8px;
+    border: 3px solid #c07e53;
+    border-radius: 16px;
     margin-bottom: 8px;
+    
+}
+
+.card-img > img{
+    width: inherit;
+    height: inherit;
 }
 
 .card {
     text-align: center;
     flex-basis: 150px;
 }
+.card-text{
+    color: #f8eacf;
+}
 
 .quote-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: #f8eacf;
     flex: 1.1 0 400px;
 }
 
@@ -135,7 +144,7 @@ ul {
 
 .quote {
     font-size: 36px;
-    color: #1f2937;
+    color: #30455c;
     font-weight: 300;
 }
 
@@ -143,13 +152,14 @@ ul {
     margin-left: auto;
     font-size: 28px;
     font-weight: 900;
+    color: #071721;
 }
 
 .sign-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #30455c;
     flex: 1 0 300px;
 }
 
@@ -158,8 +168,8 @@ ul {
     width: 100%;
     height: 75px;
     padding: 30px 60px;
-    background-color: #3882f6;
-    color: white;
+    background-color: #c07e53;
+    color: #30455c;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -171,10 +181,10 @@ ul {
 }
 
 .btn-sign-up {
-    background-color: #3882f6;
-    color: white;
+    background-color: transparent;
+    color: #30455c;
     font-size: 20px;
-    border: 2px solid white;
+    border: 3px solid #30455c;
     padding: 8px 32px;
     border-radius: 10px;
 }
@@ -183,7 +193,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #f8eacf;
 
     flex: 0 0 75px;
 }
