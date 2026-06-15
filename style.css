@@ -171,7 +171,7 @@ ul {
     height: 75px;
     padding: 30px 60px;
     background-color: #c07e53;
-    color: #30455c;
+    color: #f8eacf;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -184,9 +184,9 @@ ul {
 
 .btn-sign-up {
     background-color: transparent;
-    color: #30455c;
+    color: #f8eacf;
     font-size: 20px;
-    border: 3px solid #30455c;
+    border: 3px solid #f8eacf;
     padding: 8px 32px;
     border-radius: 10px;
 }
